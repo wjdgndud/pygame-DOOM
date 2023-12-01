@@ -17,7 +17,7 @@ class Game:
         pg.init()
         pg.mouse.set_visible(False)
         self.screen = pg.display.set_mode(RES)
-        pg.event.set_grab(True)
+        pg.event.set_grab(True) # 마우스 고정
         self.clock = pg.time.Clock()
         self.delta_time = 1
         self.global_trigger = False
