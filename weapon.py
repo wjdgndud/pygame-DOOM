@@ -24,7 +24,6 @@ class Weapon(AnimatedSprite):
                     self.reloading = False
                     self.frame_counter = 0
 
-
     def draw(self):
         self.game.screen.blit(self.images[0], self.weapon_pos)
 
